@@ -10,7 +10,7 @@
     </section>
     <p class="authority flex-center-center">
       <span class="name">© {{ new Date().getFullYear() }} {{$t('author')}}</span>
-      <a href="https://github.com/vadym4che/" target="_blank">
+      <a href="https://github.com/1abcdesign/" target="_blank">
         <img :src="githubImg" class="logo git" alt="GitHub logo"/>
       </a>
       <span class="abc">(č) 8ogdanovv</span>
