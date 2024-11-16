@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps, watch, computed } from 'vue'
+import { ref, watch, computed } from 'vue'
 import LineChart from './LineChart.vue';
 import WarningError from './WarningError.vue'
 import getLocal from '@/helpers/getLocal'

@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { ref, defineProps, onMounted, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 
 const { less, more, storageKey } = defineProps(['less', 'more', 'storageKey'])
 const days = ref(sessionStorage.getItem(storageKey) || 1)
