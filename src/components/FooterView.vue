@@ -10,10 +10,10 @@
     </section>
     <p class="authority flex-center-center">
       <span class="name">© {{ new Date().getFullYear() }} {{$t('author')}}</span>
-      <a href="https://github.com/1abcdesign/" target="_blank">
+      <a href="https://github.com/vadim4web/" target="_blank">
         <img :src="githubImg" class="logo git" alt="GitHub logo"/>
       </a>
-      <span class="abc">(č) 8ogdanovv</span>
+      <span class="abc">VADIM4WEB</span>
     </p>
     <toggle-theme />
   </footer>
